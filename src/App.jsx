@@ -3,9 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/home'
 import About from './pages/about/about'
 import Contact from './pages/contact/contact'
-import Gallery from './pages/gallery/gallery'
-import Plans from './pages/plans/plans'
-import Trainers from './pages/trainers/trainers'
+import Features from './pages/gallery/gallery'
+import Signin from './pages/plans/plans'
 import NotFound from './pages/notFound/notfound'
 import Navbar from './components/navbar'
 import Footer from './components/Footer'
@@ -17,8 +16,8 @@ const App = () => {
             <Navbar />
             <Routes>
                 <Route index element={<Home />} />
-                <Route path='about' element={<About />} />
                 <Route path='Features' element={<Features />} />
+                <Route path='about' element={<About />} />
                 <Route path='contact' element={<Contact />} />
                 <Route path='signin' element={<Signin />} />
                 {/* <Route path='trainers' element={<Trainers />} /> */}

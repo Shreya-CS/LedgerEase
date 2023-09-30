@@ -52,6 +52,8 @@
 
 .main__header-image {
     position: relative;
+    padding-bottom: 35px;
+    transform: rotate(20deg);
 }
 
 .main__header img {
@@ -311,7 +313,7 @@ footer {
 @media screen and (max-width:1024px) {
     .main__header {
         height: fit-content;
-        padding: 5rem 0;
+        padding-top: 3rem 0;
     }
 
     .main__header-container {

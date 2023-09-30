@@ -7,15 +7,14 @@ const MainHeader = () => {
         <header className="main__header">
             <div className="container main__header-container">
                 <div className="main__header-left">
-                    <h4>#100DaysOfWorkOut</h4>
-                    <h1>Join The Legeneds Of
-                        The Fitness World</h1>
+                    <h4>#SmartLedger-Smart Business</h4>
+                    <h1>Your Business , Our Books</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed natus quam laborum in architecto.</p>
                     <Link to="/plans" className="btn lg">Get Started</Link>
                 </div>
                 <div className="main__header-right">
-                    <div className="main__header-circle">
-                    </div>
+                    {/* <div className="main__header-circle">
+                    </div> */}
                     <div className="main__header-image">
                         <img src={Image} alt="Main Header Image" />
                     </div>

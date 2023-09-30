@@ -2,7 +2,7 @@ import Header from '../../components/Header'
 import HeaderImage from '../../images/header_bg_1.jpg'
 import './gallery.css'
 
-const gallery = () => {
+const Features = () => {
     const galleryLength = 15;
     const images = []
     for (let i = 1; i <= galleryLength; i++) {
@@ -29,4 +29,4 @@ const gallery = () => {
     )
 }
 
-export default gallery
+export default Features

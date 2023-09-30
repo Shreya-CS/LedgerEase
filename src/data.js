@@ -7,25 +7,22 @@ export const links = [
         path: '/'
     },
     {
+        name: "Features",
+        path: '/gallery'
+    },
+    {
         name: "About",
         path: '/about'
     },
     {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
-        name: "Plans",
-        path: '/plans'
-    },
-    {
-        name: "Trainers",
-        path: '/trainers'
-    },
-    {
         name: "Contact",
         path: '/contact'
+    },
+    {
+        name: "Signin",
+        path: '/plans'
     }
+
 ]
 export const programs = [
     {

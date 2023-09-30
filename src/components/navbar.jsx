@@ -10,8 +10,8 @@ const Navbar = () => {
     return (
         <nav>
             <div className="container nav__container">
-                <Link to="/" className="logo" onClick={() => setIsNavShowing(false )}>
-                    <h2>Gymatix</h2>
+                <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
+                    <h2>LedgerEase</h2>
                 </Link>
                 <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
                     {
