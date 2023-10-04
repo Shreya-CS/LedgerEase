@@ -1,6 +1,6 @@
 import FAQ from '../../components/FAQ'
 import MainHeader from '../../components/MainHeader'
-import Program from '../../components/Program'
+import Features from '../../components/Program'
 import Testimonials from '../../components/Testimonials'
 import Values from '../../components/Values'
 
@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <MainHeader />
-            <Program />
+            <Features />
             <Values />
             <FAQ />
             <Testimonials />

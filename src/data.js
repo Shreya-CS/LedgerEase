@@ -24,32 +24,32 @@ export const links = [
     }
 
 ]
-export const programs = [
+export const features = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        title: "Program one",
+        title: "Feature one",
         info: "Sample lorem ipsum",
         path: "/programs/111"
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Program two",
+        title: "Feature two",
         info: "Sample lorem ipsum",
         path: "/programs/222"
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Program three",
+        title: "Feature three",
         info: "Sample lorem ipsum",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "Program four",
+        title: "Feature four",
         info: "Sample lorem ipsum",
         path: "/programs/444"
     }
