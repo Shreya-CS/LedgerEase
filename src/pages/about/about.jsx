@@ -1,8 +1,8 @@
 import Header from "../../components/Header"
-import HeaderImage from "../../images/header_bg_1.jpg"
-import StoryImage from '../../images/about1.jpg'
-import VisionImage from '../../images/about3.jpg'
-import MissionImage from '../../images/about2.jpg'
+import HeaderImage from '../../images/interest-loan-calculator.svg'
+import StoryImage from '../../images/interest-loan-calculator.svg'
+import VisionImage from '../../images/business-accounting.svg'
+import MissionImage from '../../images/woman-checking-invoice.svg'
 import './about.css'
 const about = () => {
     return (

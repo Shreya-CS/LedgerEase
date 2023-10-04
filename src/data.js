@@ -55,29 +55,29 @@ export const features = [
     }
 ]
 
-export const values = [
+export const about = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        value: "Value 1",
+        value: "About 1",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        value: "Value 2",
+        value: "About 2",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        value: "Value 3",
+        value: "About 3",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        value: "Value 4",
+        value: "About 4",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     }
 
@@ -86,32 +86,32 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     },
     {
         id: 2,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     },
     {
         id: 3,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     },
     {
         id: 4,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     },
     {
         id: 5,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     },
     {
         id: 6,
-        question: "What are the timings the gym will be open?",
+        question: "How can the organization add their customers/user?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     }
 ]
@@ -121,42 +121,42 @@ export const testimonials = [
         id: 1,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org1",
         avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org2",
         avatar: require("./images/avatar2.jpg")
     },
     {
         id: 3,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org3",
         avatar: require("./images/avatar3.jpg")
     },
     {
         id: 4,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org4",
         avatar: require("./images/avatar4.jpg")
     },
     {
         id: 5,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org5",
         avatar: require("./images/avatar5.jpg")
     },
     {
         id: 6,
         name: "Name1",
         quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
-        job: "Student",
+        job: "Org6",
         avatar: require("./images/avatar6.jpg")
     }
 ]

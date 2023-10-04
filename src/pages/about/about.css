@@ -16,7 +16,7 @@
 
 .about__story-container,
 .about__mission-container {
-    padding-top: 7rem;
+    padding-top: 4rem;
     display: grid;
     grid-template-columns: 40% 50%;
     gap: 10%;

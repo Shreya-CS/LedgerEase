@@ -1,9 +1,9 @@
 .main__header {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: grid;
     place-items: center;
-    /* margin-top: 3rem; */
+    margin-top: 2rem;
 }
 
 .main__header-container {
@@ -100,7 +100,12 @@
 .values__image {
     filter: saturate(0.25);
     transition: var(--transition);
-    height: 620px;
+    /* height: 1000px; */
+}
+
+.values__image img {
+    width: 750px;
+    /* padding-right: 850px; */
 }
 
 .values__image:hover {
@@ -147,7 +152,7 @@ img {
 }
 
 .faqs {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }
 
 .faq {

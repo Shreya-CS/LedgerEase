@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div className="container footer__container">
                 <article>
-                    <Link to='/' className="logo"><h2>Gymatix</h2></Link>
+                    <Link to='/' className="logo"><h2>LedgerEase</h2></Link>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sequi magnam? Sunt illum officia cumque quam, accusantium reprehenderit ipsam nostrum omnis modi reiciendis perspiciatis eos.
                     </p>
@@ -22,11 +22,11 @@ const Footer = () => {
                 </article>
                 <article>
                     <h4>Permalinks</h4>
+                    <Link to='/features'>Features </Link>
                     <Link to='/about'>About </Link>
-                    <Link to='/plans'>Plans </Link>
-                    <Link to='/trainers'>Trainers </Link>
-                    <Link to='/gallery'>Gallery</Link>
                     <Link to='/contact'>Contact</Link>
+                    <Link to='/signin'>Sign In </Link>
+
                 </article>
                 <article>
                     <h4>Insights</h4>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </article>
             </div>
             <div className="footer__copyright">
-                <small>Gymatix &copy; All Rights Reserved</small>
+                <small>LedgerEase &copy; All Rights Reserved</small>
             </div>
         </footer>
     )

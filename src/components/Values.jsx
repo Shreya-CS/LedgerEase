@@ -1,8 +1,8 @@
 import React from 'react'
-import Image from '../images/values.jpg'
+import Image from '../images/woman-checking-invoice.svg'
 import SectionHead from './SectionHead'
 import { GiCutDiamond } from 'react-icons/gi'
-import { values } from '../data'
+import { about } from '../data'
 import Card from '../UI/Card'
 
 
@@ -16,13 +16,13 @@ const Values = () => {
                     </div>
                 </div>
                 <div className="values__right">
-                    <SectionHead icon={<GiCutDiamond />} title='Value Icon' />
+                    <SectionHead icon={<GiCutDiamond />} title='About' />
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea temporibus eum error nostrum nam dolores molestias vel ut sint necessitatibus?
                     </p>
                     <div className="values__wrapper">
                         {
-                            values.map(({ id, icon, value, desc }) => {
+                            about.map(({ id, icon, value, desc }) => {
                                 return <Card key={id} className="values__value">
                                     <span>{icon}</span>
                                     <h4>{value}</h4>
