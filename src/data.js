@@ -1,5 +1,4 @@
-import { SiOpenaigym } from 'react-icons/si'
-
+import { MdCalculate } from "react-icons/md";
 
 export const links = [
     {
@@ -27,56 +26,86 @@ export const links = [
 export const features = [
     {
         id: 1,
-        icon: <SiOpenaigym />,
-        title: "Feature one",
-        info: "Sample lorem ipsum",
+        icon: <MdCalculate />,
+        title: "Effortless Scanning",
+        info: "Easily scan and upload invoices, whether they're paper-based or in various digital formats.",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym />,
-        title: "Feature two",
-        info: "Sample lorem ipsum",
+        icon: <MdCalculate />,
+        title: "OCR Precision",
+        info: "Say goodbye to manual data entry. Let our OCR do the heavy lifting. It meticulously extracts essential fields from invoices, ensuring accuracy.",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym />,
-        title: "Feature three",
-        info: "Sample lorem ipsum",
+        icon: <MdCalculate />,
+        title: "SME-Friendly",
+        info: "Designed with small and medium enterprises in mind, our system handles invoices from various sellers seamlessly.",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: <SiOpenaigym />,
-        title: "Feature four",
-        info: "Sample lorem ipsum",
+        icon: <MdCalculate />,
+        title: "Blockchain Security",
+        info: "Rest easy knowing every successful transaction is stored on Hyper-ledger Fabric for added security.",
+        path: "/programs/444"
+    },
+    {
+        id: 5,
+        icon: <MdCalculate />,
+        title: "Quick Audit Trails",
+        info: "Trace your transaction history effortlessly, ensuring transparency and accountability.Rest easy knowing every successful transaction is stored on Hyper-ledger Fabric for added security.",
+        path: "/programs/444"
+    },
+    {
+        id: 6,
+        icon: <MdCalculate />,
+        title: "Instant Insights",
+        info: "Rest easy knowing every successful transaction is stored on Hyper-ledger Fabric for added security.",
+        path: "/programs/444"
+    },
+    {
+        id: 7,
+        icon: <MdCalculate />,
+        title: "Structured Data",
+        info: "Transform unstructured invoices into organized, structured data in your database.",
+        path: "/programs/444"
+    },
+    {
+        id: 8,
+        icon: <MdCalculate />,
+        title: "Eliminate Errors",
+        info: "Access transaction data in real-time, empowering you to make informed decisions on the fly. Stay informed with timely alerts and messages",
         path: "/programs/444"
     }
+
+
 ]
 
 export const about = [
     {
         id: 1,
-        icon: <SiOpenaigym />,
+        icon: <MdCalculate />,
         value: "About 1",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 2,
-        icon: <SiOpenaigym />,
+        icon: <MdCalculate />,
         value: "About 2",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 3,
-        icon: <SiOpenaigym />,
+        icon: <MdCalculate />,
         value: "About 3",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     },
     {
         id: 4,
-        icon: <SiOpenaigym />,
+        icon: <MdCalculate />,
         value: "About 4",
         desc: "dcjbdjcbdjbcdbj fj bjfcjvcnj "
     }

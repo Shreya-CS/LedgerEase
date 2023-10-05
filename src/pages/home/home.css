@@ -151,8 +151,12 @@ img {
     align-items: flex-start;
 }
 
+/* .faqs__container {
+    margin-top: 5rem;
+} */
+
 .faqs {
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
 }
 
 .faq {
